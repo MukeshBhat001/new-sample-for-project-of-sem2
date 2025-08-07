@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather - Discover Nepal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+     <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fas fa-mountain"></i>
+                <span>Discover Nepal</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a></li>
+                <li><a href="tourism-places.html" class="nav-link">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <span>Places</span>
+                </a></li>
+                <li><a href="hiking-places.html" class="nav-link">
+                    <i class="fas fa-hiking"></i>
+                    <span>Adventures</span>
+                </a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span>More</span>
+                        <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <span>About Nepal</span>
+                        </a>
+                        <a href="contact.html" class="dropdown-item active">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                        <a href="weather.html" class="dropdown-item">
+                            <i class="fas fa-cloud-sun"></i>
+                            <span>Weather</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="btn-auth" id="loginBtn">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Login</span>
+                </button>
+                <div class="user-menu hidden" id="userMenu">
+                    <div class="user-avatar">
+                        <i class="fas fa-user-circle"></i>
+                        <span id="userName">User</span>
+                    </div>
+                    <button class="btn-auth logout-btn" id="logoutBtn">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>Logout</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Weather Information</h1>
+            <p>Check current weather conditions for places in Nepal</p>
+        </div>
+    </section>
+
+    <!-- Weather Content -->
+    <section class="content-section">
+        <div class="weather-container">
+            <!-- Weather Search -->
+            <div class="weather-search">
+                <h2>Search Weather</h2>
+                <form class="search-form" id="weatherForm">
+                    <input type="text" class="search-input" id="cityInput" placeholder="Enter city name (e.g., Kathmandu, Pokhara)" required>
+                    <button type="submit" class="btn btn-primary">Get Weather</button>
+                </form>
+            </div>
+
+            <!-- Weather Result -->
+            <div class="weather-result hidden" id="weatherResult">
+                <h2 id="cityName">City Weather</h2>
+                <div class="weather-info">
+                    <div class="weather-item">
+                        <h4>Temperature</h4>
+                        <p id="temperature">--°C</p>
+                    </div>
+                    <div class="weather-item">
+                        <h4>Condition</h4>
+                        <p id="condition">--</p>
+                    </div>
+                    <div class="weather-item">
+                        <h4>Humidity</h4>
+                        <p id="humidity">--%</p>
+                    </div>
+                    <div class="weather-item">
+                        <h4>Wind Speed</h4>
+                        <p id="windSpeed">-- km/h</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Popular Cities Weather -->
+            <div class="weather-search">
+                <h2>Popular Destinations</h2>
+                <p>Quick weather check for popular Nepal destinations:</p>
+                <div class="hero-buttons" style="margin-top: 1rem;">
+                    <button class="btn btn-secondary" onclick="getWeatherForCity('Kathmandu')">Kathmandu</button>
+                    <button class="btn btn-secondary" onclick="getWeatherForCity('Pokhara')">Pokhara</button>
+                    <button class="btn btn-secondary" onclick="getWeatherForCity('Chitwan')">Chitwan</button>
+                    <button class="btn btn-secondary" onclick="getWeatherForCity('Lukla')">Lukla</button>
+                </div>
+            </div>
+
+            <!-- Weather Tips -->
+            <div class="weather-search">
+                <h2>Weather Tips for Nepal</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="info-icon">🌦️</div>
+                        <h3>Monsoon Season</h3>
+                        <p>June to September - Heavy rainfall, not ideal for trekking</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🌤️</div>
+                        <h3>Best Trekking</h3>
+                        <p>October to November & March to May - Clear skies and moderate temperatures</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">❄️</div>
+                        <h3>Winter Season</h3>
+                        <p>December to February - Cold temperatures, especially at high altitudes</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🌸</div>
+                        <h3>Spring Season</h3>
+                        <p>March to May - Warm weather, rhododendrons bloom, excellent visibility</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🏔️ Discover Nepal</h3>
+                    <p>Your gateway to exploring the beautiful country of Nepal</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="tourism-places.html">Tourism Places</a></li>
+                        <li><a href="hiking-places.html">Hiking Places</a></li>
+                        <li><a href="weather.html">Weather</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@discovernepal.com</p>
+                    <p>📞 +977-1-234567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Discover Nepal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
