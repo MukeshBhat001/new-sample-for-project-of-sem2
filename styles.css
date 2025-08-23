@@ -68,18 +68,19 @@ body {
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.2rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
     text-decoration: none;
 }
 
-.nav-logo i {
-    color: var(--accent-color);
-    font-size: 1.8rem;
+.nav-logo .nav-flag {
+    width: 60px;   /* flag size adjust गर्न */
+    height: auto;
+    border-radius: 3px; /* अलिकति smooth edges चाहियो भने */
+    object-fit: contain; /* flag distorted नदेखियोस् भनेर */
 }
-
 .nav-menu {
     display: flex;
     list-style: none;
@@ -2063,4 +2064,10 @@ body {
     .nav-link span {
         font-size: 0.8rem;
     }
+}
+
+ @media (max-width: 768px) {
+  .nav-dropdown > a {
+    display: none !important;  
+  }
 }
