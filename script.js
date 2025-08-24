@@ -754,7 +754,7 @@ function openStatsModal(type) {
             content: `
                 <div class="stats-detail-grid">
                     <div class="stats-detail-item">
-                        <img src="./public/everest.png" alt="Mount Everest">
+                        <img src="public/everest.jpg" alt="Mount Everest">
                         <h4>Mount Everest (8,848.86m)</h4>
                         <p>The world's highest mountain, known as Sagarmatha in Nepali and Chomolungma in Tibetan. Located in the Mahalangur Himal sub-range of the Himalayas.</p>
                         <div class="detail-meta">
@@ -763,7 +763,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/k2.png" alt="K2">
+                        <img src="public/k2.jpg" alt="K2">
                         <h4>K2 (8,611m)</h4>
                         <p>The second-highest mountain in the world, located on the China-Pakistan border. Known as the "Savage Mountain" due to its difficulty and danger.</p>
                         <div class="detail-meta">
@@ -772,7 +772,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/kanchanjunga.png" alt="Kangchenjunga">
+                        <img src="public/kanchanjunga.jpg" alt="Kangchenjunga">
                         <h4>Kangchenjunga (8,586m)</h4>
                         <p>The third-highest mountain in the world, located on the border between Nepal and Sikkim, India. Sacred to the people of Darjeeling and Sikkim.</p>
                         <div class="detail-meta">
@@ -781,7 +781,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/lhotse.png" alt="Lhotse">
+                        <img src="public/lhotse.jpg" alt="Lhotse">
                         <h4>Lhotse (8,516m)</h4>
                         <p>The fourth-highest mountain in the world, connected to Everest via the South Col. Its name means "South Peak" in Tibetan.</p>
                         <div class="detail-meta">
@@ -790,7 +790,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/makalu.png" alt="Makalu">
+                        <img src="public/makalu.jpg" alt="Makalu">
                         <h4>Makalu (8,485m)</h4>
                         <p>The fifth-highest mountain in the world, known for its perfect pyramid structure. Located in the Mahalangur Himalayas.</p>
                         <div class="detail-meta">
@@ -799,7 +799,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/cho oyu.png" alt="Cho Oyu">
+                        <img src="public/cho oyu.jpg" alt="Cho Oyu">
                         <h4>Cho Oyu (8,188m)</h4>
                         <p>The sixth-highest mountain in the world, located on the China-Nepal border. Considered the easiest of the 8,000m peaks to climb.</p>
                         <div class="detail-meta">
@@ -808,7 +808,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/dhaulagiri.png" alt="Dhaulagiri">
+                        <img src="public/dhaulagiri.jpg" alt="Dhaulagiri">
                         <h4>Dhaulagiri I (8,167m)</h4>
                         <p>The seventh-highest mountain in the world, located in north central Nepal. Its name means "White Mountain" in Sanskrit.</p>
                         <div class="detail-meta">
@@ -817,7 +817,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/manaslu.png" alt="Manaslu">
+                        <img src="public/k2.jpg" alt="Manaslu">
                         <h4>Manaslu (8,163m)</h4>
                         <p>The eighth-highest mountain in the world, located in the Mansiri Himal. Its name means "Mountain of the Spirit" in Sanskrit.</p>
                         <div class="detail-meta">
@@ -839,7 +839,7 @@ function openStatsModal(type) {
             content: `
                 <div class="stats-detail-grid">
                     <div class="stats-detail-item">
-                        <img src="public/kathmandudurbarsquare.png" alt="Kathmandu Durbar Square">
+                        <img src="public/kathmandudurbarsquare.jpg" alt="Kathmandu Durbar Square">
                         <h4>Kathmandu Durbar Square</h4>
                         <p>A historic palace complex with temples and courtyards, showcasing traditional Newar architecture and craftsmanship.</p>
                         <div class="detail-meta">
@@ -848,7 +848,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/patandurbarsquare.png" alt="Patan Durbar Square">
+                        <img src="public/patandurbarsquare.jpg" alt="Patan Durbar Square">
                         <h4>Patan Durbar Square</h4>
                         <p>Ancient royal palace complex with exquisite temples, courtyards, and traditional architecture in Lalitpur.</p>
                         <div class="detail-meta">
@@ -857,7 +857,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/bhaktapurdurbarsquare.png" alt="Bhaktapur Durbar Square">
+                        <img src="public/bhaktapurdurbarsquare.jpg" alt="Bhaktapur Durbar Square">
                         <h4>Bhaktapur Durbar Square</h4>
                         <p>Medieval city center with palaces, temples, and traditional buildings showcasing ancient Newar culture.</p>
                         <div class="detail-meta">
@@ -866,7 +866,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/swoyambhunath.png" alt="Swayambhunath">
+                        <img src="public/swoyambhunath.jpg" alt="Swayambhunath">
                         <h4>Swayambhunath Stupa</h4>
                         <p>Ancient Buddhist stupa also known as the Monkey Temple, perched on a hilltop overlooking Kathmandu Valley.</p>
                         <div class="detail-meta">
@@ -875,7 +875,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/boudhanath.png" alt="Boudhanath">
+                        <img src="public/boudhanath.jpg" alt="Boudhanath">
                         <h4>Boudhanath Stupa</h4>
                         <p>One of the largest Buddhist stupas in the world and a major pilgrimage site for Tibetan Buddhists.</p>
                         <div class="detail-meta">
@@ -884,7 +884,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/pashupatinath.png" alt="Pashupatinath">
+                        <img src="public/pashupatinath.jpg" alt="Pashupatinath">
                         <h4>Pashupatinath Temple</h4>
                         <p>Sacred Hindu temple complex dedicated to Lord Shiva, located on the banks of the Bagmati River.</p>
                         <div class="detail-meta">
@@ -893,7 +893,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/lumbini.png" alt="Lumbini">
+                        <img src="public/lumbini.jpg" alt="Lumbini">
                         <h4>Lumbini</h4>
                         <p>The birthplace of Lord Buddha, featuring the Maya Devi Temple and monasteries from various countries.</p>
                         <div class="detail-meta">
@@ -902,7 +902,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/chitwan.png" alt="Chitwan National Park">
+                        <img src="public/chitwan.jpg" alt="Chitwan National Park">
                         <h4>Chitwan National Park</h4>
                         <p>Nepal's first national park, home to endangered species including one-horned rhinoceros and Bengal tigers.</p>
                         <div class="detail-meta">
@@ -911,7 +911,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/sagarmathanationalpark.png" alt="Sagarmatha National Park">
+                        <img src="public/sagarmathanationalpark.jpg" alt="Sagarmatha National Park">
                         <h4>Sagarmatha National Park</h4>
                         <p>Home to Mount Everest and diverse Himalayan wildlife, including snow leopards and red pandas.</p>
                         <div class="detail-meta">
@@ -920,7 +920,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/changunarayan.png" alt="Changu Narayan">
+                        <img src="public/changunarayan.jpg" alt="Changu Narayan">
                         <h4>Changu Narayan Temple</h4>
                         <p>Ancient Hindu temple dedicated to Lord Vishnu, featuring the oldest stone inscription in Nepal.</p>
                         <div class="detail-meta">
@@ -942,7 +942,7 @@ function openStatsModal(type) {
             content: `
                 <div class="stats-detail-grid">
                     <div class="stats-detail-item">
-                        <img src="public/sherpa.png" alt="Sherpa Culture">
+                        <img src="public/sherpa.jpg" alt="Sherpa Culture">
                         <h4>Sherpa</h4>
                         <p>Mountain people known for their mountaineering skills and Buddhist culture. Primarily found in the Everest region.</p>
                         <div class="detail-meta">
@@ -951,7 +951,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/gurung.png" alt="Gurung Culture">
+                        <img src="public/gurung.jpg" alt="Gurung Culture">
                         <h4>Gurung</h4>
                         <p>Indigenous people of the Himalayas known for their bravery and service in the British and Indian armies.</p>
                         <div class="detail-meta">
@@ -960,7 +960,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/tamang.png" alt="Tamang Culture">
+                        <img src="public/tamang.jpg" alt="Tamang Culture">
                         <h4>Tamang</h4>
                         <p>Tibetan-origin people with rich Buddhist traditions, known for their unique language and cultural practices.</p>
                         <div class="detail-meta">
@@ -969,7 +969,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/tharu.png" alt="Tharu Culture">
+                        <img src="public/tharu.jpg" alt="Tharu Culture">
                         <h4>Tharu</h4>
                         <p>Indigenous people of the Terai region with unique cultural traditions and resistance to malaria.</p>
                         <div class="detail-meta">
@@ -978,7 +978,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/newar.png" alt="Newar Culture">
+                        <img src="public/newar.jpg" alt="Newar Culture">
                         <h4>Newar</h4>
                         <p>Indigenous people of Kathmandu Valley, known for their art, architecture, and rich cultural heritage.</p>
                         <div class="detail-meta">
@@ -987,7 +987,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/magar.png" alt="Magar Culture">
+                        <img src="public/magar.jpg" alt="Magar Culture">
                         <h4>Magar</h4>
                         <p>One of the oldest indigenous groups in Nepal, known for their martial traditions and service in armies.</p>
                         <div class="detail-meta">
@@ -1009,7 +1009,7 @@ function openStatsModal(type) {
             content: `
                 <div class="stats-detail-grid">
                     <div class="stats-detail-item">
-                        <img src="public/everestbasecamp.png" alt="Everest Region">
+                        <img src="public/everestbasecamp.jpg" alt="Everest Region">
                         <h4>Everest Region (Khumbu)</h4>
                         <p>Home to the world's highest peaks including Everest, Lhotse, and Cho Oyu. Over 50 trekking routes available.</p>
                         <div class="detail-meta">
@@ -1018,7 +1018,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/annapurna.png" alt="Annapurna Region">
+                        <img src="public/annapurna.jpg" alt="Annapurna Region">
                         <h4>Annapurna Region</h4>
                         <p>Most popular trekking region with diverse landscapes and cultures. Over 200 different trekking routes.</p>
                         <div class="detail-meta">
@@ -1027,7 +1027,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/everest.png" alt="Langtang Region">
+                        <img src="public/everest.jpg" alt="Langtang Region">
                         <h4>Langtang Region</h4>
                         <p>Closest trekking region to Kathmandu with beautiful valleys and Tamang culture. Over 30 trekking routes.</p>
                         <div class="detail-meta">
@@ -1036,7 +1036,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/manaslu.png" alt="Manaslu Region">
+                        <img src="public/everest.jpg" alt="Manaslu Region">
                         <h4>Manaslu Region</h4>
                         <p>Remote and less crowded region around the eighth highest mountain. Over 25 trekking routes available.</p>
                         <div class="detail-meta">
@@ -1045,7 +1045,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/dolpo region.png" alt="Dolpo Region">
+                        <img src="public/dolpo region.jpg" alt="Dolpo Region">
                         <h4>Dolpo Region</h4>
                         <p>Remote trans-Himalayan region with unique Tibetan culture and landscapes. Over 15 challenging routes.</p>
                         <div class="detail-meta">
@@ -1054,7 +1054,7 @@ function openStatsModal(type) {
                         </div>
                     </div>
                     <div class="stats-detail-item">
-                        <img src="public/makalu.png" alt="Makalu Region">
+                        <img src="public/makalu.jpg" alt="Makalu Region">
                         <h4>Makalu Region</h4>
                         <p>Pristine wilderness area around the fifth highest mountain with diverse ecosystems and wildlife.</p>
                         <div class="detail-meta">
@@ -1452,74 +1452,73 @@ function initializeGalleryData() {
     
     const galleryData = {
         'everest-base-camp': [
-            { src: '/placeholder.svg?height=800&width=1200&text=Everest+Base+Camp', title: 'Everest Base Camp', description: 'The iconic base camp at 5,364m elevation' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Kala+Patthar+Sunrise', title: 'Kala Patthar Sunrise', description: 'Breathtaking sunrise view from Kala Patthar' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Namche+Bazaar', title: 'Namche Bazaar', description: 'The bustling Sherpa capital and trading hub' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Tengboche+Monastery', title: 'Tengboche Monastery', description: 'Ancient Buddhist monastery with mountain views' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Suspension+Bridge', title: 'Suspension Bridge', description: 'Crossing the dramatic suspension bridges' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Sherpa+Village', title: 'Sherpa Village', description: 'Traditional Sherpa village life' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Mountain+Views', title: 'Himalayan Views', description: 'Spectacular mountain panoramas' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Trekking+Trail', title: 'Trekking Trail', description: 'The challenging mountain trails' }
+            { src: '', title: 'Everest Base Camp', description: 'The iconic base camp at 5,364m elevation' },
+            { src: '', title: 'Kala Patthar Sunrise', description: 'Breathtaking sunrise view from Kala Patthar' },
+            { src: '', title: 'Namche Bazaar', description: 'The bustling Sherpa capital and trading hub' },
+            { src: '', title: 'Tengboche Monastery', description: 'Ancient Buddhist monastery with mountain views' },
+            { src: '', title: 'Suspension Bridge', description: 'Crossing the dramatic suspension bridges' },
+            { src: '', title: 'Sherpa Village', description: 'Traditional Sherpa village life' },
+            { src: '', title: 'Himalayan Views', description: 'Spectacular mountain panoramas' },
+            { src: '', title: 'Trekking Trail', description: 'The challenging mountain trails' }
         ],
         'annapurna-circuit': [
-            { src: '/placeholder.svg?height=800&width=1200&text=Thorong+La+Pass', title: 'Thorong La Pass', description: 'The highest point of the circuit at 5,416m' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Annapurna+Range', title: 'Annapurna Range', description: 'Majestic Annapurna mountain range' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Manang+Village', title: 'Manang Village', description: 'High altitude village with Tibetan culture' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Muktinath+Temple', title: 'Muktinath Temple', description: 'Sacred temple for Hindus and Buddhists' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Rhododendron+Forest', title: 'Rhododendron Forest', description: 'Beautiful rhododendron blooms in spring' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Marsyangdi+Valley', title: 'Marsyangdi Valley', description: 'Lush green valley with river views' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Tibetan+Plateau', title: 'Tibetan Plateau', description: 'High altitude desert landscape' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Local+Culture', title: 'Local Culture', description: 'Rich cultural diversity along the trail' }
+            { src: '', title: 'Thorong La Pass', description: 'The highest point of the circuit at 5,416m' },
+            { src: '', title: 'Annapurna Range', description: 'Majestic Annapurna mountain range' },
+            { src: '', title: 'Manang Village', description: 'High altitude village with Tibetan culture' },
+            { src: '', title: 'Muktinath Temple', description: 'Sacred temple for Hindus and Buddhists' },
+            { src: '', title: 'Rhododendron Forest', description: 'Beautiful rhododendron blooms in spring' },
+            { src: '', title: 'Marsyangdi Valley', description: 'Lush green valley with river views' },
+            { src: '', title: 'Tibetan Plateau', description: 'High altitude desert landscape' },
+            { src: '', title: 'Local Culture', description: 'Rich cultural diversity along the trail' }
         ],
         'langtang-valley': [
-            { src: '/placeholder.svg?height=800&width=1200&text=Kyanjin+Gompa', title: 'Kyanjin Gompa', description: 'Ancient monastery at 3,870m elevation' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Langtang+Lirung', title: 'Langtang Lirung', description: 'The dominant peak of Langtang region' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Tserko+Ri+View', title: 'Tserko Ri Summit', description: 'Panoramic views from 4,984m summit' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Tamang+Village', title: 'Tamang Village', description: 'Traditional Tamang culture and lifestyle' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Rhododendron+Bloom', title: 'Rhododendron Bloom', description: 'Spectacular spring rhododendron forests' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Yak+Herds', title: 'Yak Herds', description: 'Traditional yak herding in alpine meadows' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Alpine+Meadows', title: 'Alpine Meadows', description: 'Beautiful high altitude grasslands' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Glacier+Views', title: 'Glacier Views', description: 'Stunning glacier formations and ice falls' }
+            { src: '', title: 'Kyanjin Gompa', description: 'Ancient monastery at 3,870m elevation' },
+            { src: '', title: 'Langtang Lirung', description: 'The dominant peak of Langtang region' },
+            { src: '', title: 'Tserko Ri Summit', description: 'Panoramic views from 4,984m summit' },
+            { src: '', title: 'Tamang Village', description: 'Traditional Tamang culture and lifestyle' },
+            { src: '', title: 'Rhododendron Bloom', description: 'Spectacular spring rhododendron forests' },
+            { src: '', title: 'Yak Herds', description: 'Traditional yak herding in alpine meadows' },
+            { src: '', title: 'Alpine Meadows', description: 'Beautiful high altitude grasslands' },
+            { src: '', title: 'Glacier Views', description: 'Stunning glacier formations and ice falls' }
         ],
         'kathmandu': [
-            { src: '/placeholder.svg?height=800&width=1200&text=Durbar+Square', title: 'Durbar Square', description: 'UNESCO World Heritage Site with ancient palaces' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Swayambhunath', title: 'Swayambhunath Stupa', description: 'The famous Monkey Temple overlooking the valley' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Boudhanath', title: 'Boudhanath Stupa', description: 'One of the largest Buddhist stupas in the world' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Pashupatinath', title: 'Pashupatinath Temple', description: 'Sacred Hindu temple dedicated to Lord Shiva' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Thamel+Streets', title: 'Thamel Streets', description: 'Bustling tourist district with shops and cafes' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Traditional+Architecture', title: 'Newar Architecture', description: 'Traditional Newari architectural masterpieces' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Local+Market', title: 'Local Markets', description: 'Vibrant local markets and street life' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Cultural+Festival', title: 'Cultural Festivals', description: 'Colorful traditional festivals and celebrations' }
+            { src: '', title: 'Durbar Square', description: 'UNESCO World Heritage Site with ancient palaces' },
+            { src: '', title: 'Swayambhunath Stupa', description: 'The famous Monkey Temple overlooking the valley' },
+            { src: '', title: 'Boudhanath Stupa', description: 'One of the largest Buddhist stupas in the world' },
+            { src: '', title: 'Pashupatinath Temple', description: 'Sacred Hindu temple dedicated to Lord Shiva' },
+            { src: '', title: 'Thamel Streets', description: 'Bust', title: 'Newar Architecture', description: 'Traditional Newari architectural masterpieces' },
+            { src: '', title: 'Local Markets', description: 'Vibrant local markets and street life' },
+            { src: '', title: 'Cultural Festivals', description: 'Colorful traditional festivals and celebrations' }
         ],
         'pokhara': [
-            { src: '/placeholder.svg?height=800&width=1200&text=Phewa+Lake', title: 'Phewa Lake', description: 'Serene lake with mountain reflections' },
-            { src: '/placeholder.svg?height=800&width=1200&text=World+Peace+Pagoda', title: 'World Peace Pagoda', description: 'Buddhist monument with panoramic views' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Sarangkot+Sunrise', title: 'Sarangkot Sunrise', description: 'Spectacular sunrise over the Himalayas' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Davis+Falls', title: 'Davis Falls', description: 'Unique waterfall flowing into underground tunnel' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Paragliding', title: 'Paragliding Adventure', description: 'Thrilling paragliding over Pokhara valley' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Annapurna+Reflection', title: 'Mountain Reflections', description: 'Perfect mountain reflections in the lake' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Lakeside+Evening', title: 'Lakeside Evening', description: 'Peaceful evening atmosphere by the lake' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Boating', title: 'Lake Boating', description: 'Traditional boat rides on Phewa Lake' }
+            { src: '', title: 'Phewa Lake', description: 'Serene lake with mountain reflections' },
+            { src: '', title: 'World Peace Pagoda', description: 'Buddhist monument with panoramic views' },
+            { src: '', title: 'Sarangkot Sunrise', description: 'Spectacular sunrise over the Himalayas' },
+            { src: '', title: 'Davis Falls', description: 'Unique waterfall flowing into underground tunnel' },
+            { src: '', title: 'Paragliding Adventure', description: 'Thrilling paragliding over Pokhara valley' },
+            { src: '', title: 'Mountain Reflections', description: 'Perfect mountain reflections in the lake' },
+            { src: '', title: 'Lakeside Evening', description: 'Peaceful evening atmosphere by the lake' },
+            { src: '', title: 'Lake Boating', description: 'Traditional boat rides on Phewa Lake' }
         ],
         'chitwan': [
-            { src: '/placeholder.svg?height=800&width=1200&text=One+Horned+Rhino', title: 'One-Horned Rhinoceros', description: 'Endangered rhino species in their natural habitat' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Bengal+Tiger', title: 'Royal Bengal Tiger', description: 'Majestic tigers roaming the jungle' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Elephant+Safari', title: 'Elephant Safari', description: 'Traditional elephant back jungle safari' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Jungle+Canoe', title: 'Canoe Ride', description: 'Peaceful canoe rides on Rapti River' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Bird+Watching', title: 'Bird Watching', description: 'Over 500 bird species in the park' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Tharu+Culture', title: 'Tharu Cultural Show', description: 'Traditional Tharu dance and culture' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Jungle+Walk', title: 'Jungle Walking', description: 'Guided walks through dense jungle' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Sunset+Safari', title: 'Sunset Safari', description: 'Beautiful sunset views during safari' }
+            { src: '', title: 'One-Horned Rhinoceros', description: 'Endangered rhino species in their natural habitat' },
+            { src: '', title: 'Royal Bengal Tiger', description: 'Majestic tigers roaming the jungle' },
+            { src: '', title: 'Elephant Safari', description: 'Traditional elephant back jungle safari' },
+            { src: '', title: 'Canoe Ride', description: 'Peaceful canoe rides on Rapti River' },
+            { src: '', title: 'Bird Watching', description: 'Over 500 bird species in the park' },
+            { src: '', title: 'Tharu Cultural Show', description: 'Traditional Tharu dance and culture' },
+            { src: '', title: 'Jungle Walking', description: 'Guided walks through dense jungle' },
+            { src: '', title: 'Sunset Safari', description: 'Beautiful sunset views during safari' }
         ],
         'lumbini': [
-            { src: '/placeholder.svg?height=800&width=1200&text=Maya+Devi+Temple', title: 'Maya Devi Temple', description: 'Sacred birthplace of Lord Buddha' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Ashoka+Pillar', title: 'Ashoka Pillar', description: 'Ancient pillar erected by Emperor Ashoka' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Sacred+Pond', title: 'Sacred Pond', description: 'Holy pond where Queen Maya Devi bathed' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Myanmar+Monastery', title: 'Myanmar Monastery', description: 'Beautiful Myanmar-style monastery' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Thai+Monastery', title: 'Thai Monastery', description: 'Elegant Thai architectural monastery' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Japanese+Temple', title: 'Japanese Peace Pagoda', description: 'Serene Japanese-style peace pagoda' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Prayer+Flags', title: 'Prayer Flags', description: 'Colorful Buddhist prayer flags' },
-            { src: '/placeholder.svg?height=800&width=1200&text=Meditation+Garden', title: 'Meditation Garden', description: 'Peaceful gardens for meditation and reflection' }
+            { src: '', title: 'Maya Devi Temple', description: 'Sacred birthplace of Lord Buddha' },
+            { src: '', title: 'Ashoka Pillar', description: 'Ancient pillar erected by Emperor Ashoka' },
+            { src: '', title: 'Sacred Pond', description: 'Holy pond where Queen Maya Devi bathed' },
+            { src: '', title: 'Myanmar Monastery', description: 'Beautiful Myanmar-style monastery' },
+            { src: '', title: 'Thai Monastery', description: 'Elegant Thai architectural monastery' },
+            { src: '', title: 'Japanese Peace Pagoda', description: 'Serene Japanese-style peace pagoda' },
+            { src: '', title: 'Prayer Flags', description: 'Colorful Buddhist prayer flags' },
+            { src: '', title: 'Meditation Garden', description: 'Peaceful gardens for meditation and reflection' }
         ]
     };
     
